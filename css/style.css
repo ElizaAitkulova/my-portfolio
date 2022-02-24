@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.header a {
+  color: blueviolet;
+  text-decoration: none;
+}
+.header {
+  padding: 10px 0;
+  background-color: palevioletred;
+  color: blueviolet;
+}
+.header-logo {
+  float: left;
+}
+.menu {
+  width: 88%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+.menu-item {
+  display: inline-block;
+}
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-size: 16px;
+}
